@@ -6,6 +6,8 @@
  * @standard MISRA-C:2012 compliant, ANSI C99
  */
 
+#define _DEFAULT_SOURCE
+
 #include "../../hal/hal_timer.h"
 #include <time.h>
 
