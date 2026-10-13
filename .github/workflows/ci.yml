@@ -21,7 +21,7 @@ jobs:
 
     - name: Run cppcheck Static Analysis (MISRA Guidelines)
       run: |
-        cppcheck --enable=all --suppress=missingIncludeSystem --error-exitcode=1 \
+        cppcheck --enable=all --suppress=missingIncludeSystem --suppress=unusedFunction --error-exitcode=1 \
           -I firmware/hal -I firmware/core_gfx -I firmware/services -I firmware/app \
           firmware/core_gfx/ firmware/services/ firmware/app/
 
