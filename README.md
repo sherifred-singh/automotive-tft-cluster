@@ -209,6 +209,7 @@ make sim
 * [03. Automotive CAN Telemetry & J1939 Frame Specifications](docs/03_can_telemetry_dbc.md)
 * [04. Automotive Odometer Wear-Leveling & Anti-Tearing NVM Service](docs/04_odometer_wear_leveling.md)
 * [05. System Design Rationale & Architectural Trade-offs](docs/05_design_decisions_and_tradeoffs.md)
+* [06. ISO 2575 Automotive Warning Telltale Architecture & Priorities](docs/06_iso2575_telltale_symbols.md)
 
 ---
 
